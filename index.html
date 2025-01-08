@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Librai Research Resources</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <style>
+    body {
+      font-family: 'Google Sans', 'Noto Sans', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%);
+      min-height: 100vh;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 4rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero .title {
+      color: white;
+      font-weight: 600;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .card {
+      transition: all 0.3s ease;
+      height: 100%;
+      margin-bottom: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: none;
+      background: white;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 2rem;
+    }
+
+    .title.is-4 {
+      color: #2d3748;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .content {
+      color: #4a5568;
+      line-height: 1.6;
+    }
+
+    .button.is-link {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border: none;
+      padding: 1.25rem;
+      font-weight: 500;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .button.is-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .footer {
+      background-color: transparent;
+      padding: 3rem 1.5rem;
+    }
+
+    .footer a {
+      color: #667eea;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer a:hover {
+      color: #764ba2;
+    }
+
+    @media screen and (max-width: 768px) {
+      .hero {
+        padding: 3rem 1rem;
+      }
+      
+      .card-content {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-2 has-text-centered">
+          Librai Research Resources
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline is-centered">
+        <div class="column is-4">
+          <a href="https://www.librai.tech/">
+            <div class="card">
+              <div class="card-content">
+                <div>
+                  <p class="title is-4">LibrAI Website</p>
+                  <div class="content">
+                    Explore LibrAI's website for testing and evaluating AI systems in a secure environment to enhance AI safety.
+                  </div>
+                </div>
+                <div class="mt-4">
+                  <button class="button is-link is-fullwidth">Visit LibrAI</button>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="column is-4">
+          <a href="https://www.librai.tech/research">
+            <div class="card">
+              <div class="card-content">
+                <div>
+                  <p class="title is-4">Research Publications</p>
+                  <div class="content">
+                    Access our latest research papers and publications on AI safety.
+                  </div>
+                </div>
+                <div class="mt-4">
+                  <button class="button is-link is-fullwidth">View Research</button>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="column is-4">
+          <a href="./tutorial/index.html">
+            <div class="card">
+              <div class="card-content">
+                <div>
+                  <p class="title is-4">COLING 2025 Tutorial</p>
+                  <div class="content">
+                    A comprehensive tutorial on AI safety issues, examining harmful content, deceptive behaviors, and model consciousness.
+                  </div>
+                </div>
+                <div class="mt-4">
+                  <button class="button is-link is-fullwidth">View Tutorial</button>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

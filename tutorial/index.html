@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Safety Issues for Generative AI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COLING 2025 Tutorial: Safety Issues for Generative AI</title>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">
+              <span style="font-size: 80%">COLING 2025 Tutorial</span><br />
+              Safety Issues for Generative AI
+            </h1>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <div class="author-row">
+                  <figure>
+                    <img class="center" src="static/imgs/haonan.jpg">
+                    <figcaption class="is-size-6-mobile"><a href="https://haonan-li.github.io/" target="_blank">Haonan Li</a><sup>1,2</sup>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img class="center" src="static/imgs/xudonghan.png">
+                    <figcaption class="is-size-6-mobile"><a href="https://hanxudong.github.io/" target="_blank">Xudong Han</a><sup>1,2</sup>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img class="center" src="static/imgs/emad.jpg">
+                    <figcaption class="is-size-6-mobile"><a href="https://emad.ai/" target="_blank">Emad Alghamdi</a><sup>1,3</sup>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img class="center" src="static/imgs/lizhilin.jpg">
+                    <figcaption class="is-size-6-mobile"><a href="https://github.com/Shomvel" target="_blank">Lizhi Lin</a><sup>4</sup>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="author-row">
+                  <figure>
+                    <img class="center" src="static/imgs/monojit.png">
+                    <figcaption class="is-size-6-mobile"><a href="https://mbzuai.ac.ae/study/faculty/monojit-choudhury/" target="_blank">Monojit Choudhury</a><sup>1</sup>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img class="center" src="static/imgs/jingfengzhang.jpg">
+                    <figcaption class="is-size-6-mobile"><a href="https://scholar.google.com/citations?hl=en&authuser=1&user=NS0P1FkAAAAJ" target="_blank">Jingfeng Zhang</a><sup>5</sup>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img class="center" src="static/imgs/timothybaldwin.jpg">
+                    <figcaption class="is-size-6-mobile"><a href="https://eltimster.github.io/www/" target="_blank">Timothy Baldwin</a><sup>1,2,6</sup>
+                    </figcaption>
+                  </figure>
+                </div>
+              </span>
+
+              <style>
+                .author-row {
+                  display: flex;
+                  justify-content: center;
+                  gap: 5%;
+                  margin: 20px 0;
+                }
+
+                .author-row figure {
+                  width: 19%;
+                  margin: 0;
+                }
+
+                .author-row img {
+                  width: 100%;
+                  height: auto;
+                }
+
+                .author-row a {
+                  text-decoration: none;
+                }
+
+                .author-row figcaption {
+                  text-align: center;
+                  margin-top: 8px;
+                }
+              </style>
+            </div>
+
+            <div class="is-size-6 publication-authors">
+              <span class="author-block"><sup>1</sup>MBZUAI</span>
+              <span class="author-block"><sup>2</sup>LibrAI</span>
+              <span class="author-block"><sup>3</sup>King Abdulaziz University</span>
+              <span class="author-block"><sup>4</sup>Tsinghua University</span>
+              <span class="author-block"><sup>5</sup>University of Auckland</span>
+              <span class="author-block"><sup>6</sup>The University of Melbourne</span>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- <br /> -->
+
+        <!--           <div class="is-size-5 publication-authors">
+            <b>Sunday July 9 14:00 - 17:30 (EDT) @ Metropolitan West</b>
+          </div> -->
+
+        <!--           <div class="is-size-5 publication-authors">
+            Visit <a target="_blank" href="https://us06web.zoom.us/rec/play/6fqU9YDLoFtWqpk8w8I7oFrszHKW6JkbPVGgHsdPBxa69ecgCxbmfP33asLU3DJ74q5BXqDGR2ycOTFk.93teqylfi_uiViNK?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus06web.zoom.us%2Frec%2Fshare%2FNrYheXPtE5zOlbogmdBg653RIu7RBO1uAsYH2CZt_hacD1jOHksRahGlERHc_Ybs.KGX1cRVtJBQtJf0o">this link</a>
+            for the Zoom recording of the tutorial
+          </div> -->
+
+        <!--           <div class="is-size-5 publication-authors">
+            QnA: <a href="https://tinyurl.com/retrieval-lm-tutorial" target="_blank"><b>tinyurl.com/retrieval-lm-tutorial</b></a>
+          </div> -->
+
+
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">About this tutorial</h2>
+          <div class="content has-text-justified">
+            <p>
+              This tutorial will provide a fresh and comprehensive view of AI safety, examining issues such as harmful content, deceptive/persuasive model behaviors, and the possibility of “model consciousness.” We will cover both theoretical and practical aspects of large language models (LLMs), multi-modal systems, and agentic AI, illustrating how to identify and address vulnerabilities—from common jailbreak attacks to complex, autonomous decision-making scenarios. Attendees will learn cutting-edge attack and defense techniques, and will explore emerging research directions that balance AI innovation with robust safety strategies. This tutorial is geared toward AI researchers, developers, and security professionals who aim to stay ahead of evolving threats and ensure responsible development of next-generation AI systems.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Schedule</h2>
+          <!--         <p>
+          Our tutorial will be held on July 9 (all the times are based on EDT = Toronto local time).
+          <em>Slides may be subject to updates.</em>
+        </p> -->
+
+          <div class="content has-text-justified">
+
+            <style type="text/css">
+              .tg {
+                border-collapse: collapse;
+                border-spacing: 0;
+              }
+
+              .tg td {
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                overflow: hidden;
+                padding: 10px 5px;
+                word-break: normal;
+              }
+
+              .tg th {
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                overflow: hidden;
+                padding: 10px 5px;
+                word-break: normal;
+              }
+
+              .tg .tg-0pky {
+                border-color: inherit;
+                text-align: left;
+                vertical-align: top
+              }
+
+              .tg .tg-0lax {
+                text-align: left;
+                vertical-align: top
+              }
+            </style>
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-0pky">Time</th>
+                  <th class="tg-0lax">Section</th>
+                  <th class="tg-0lax">Topics</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-0lax">9:00—9:15</td>
+                  <td class="tg-0lax">Introduction to AI Safety and Risks</td>
+                  <td class="tg-0lax">
+                    • Overview of harmful content, societal/ethical risks<br />
+                    • Deceptive behavior, persuasive behavior<br />
+                    • Possibility of "model consciousness" or self-awareness
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tg-0lax">9:15—10:00</td>
+                  <td class="tg-0lax">LLM Safety, Jailbreak, and Harmful Content</td>
+                  <td class="tg-0lax">
+                    • Common attack vectors and jailbreak techniques<br />
+                    • Real-world examples of harmful or disallowed outputs<br />
+                    • Strategies for detecting and mitigating misuse
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tg-0lax">10:00—10:30</td>
+                  <td class="tg-0lax">Multi-modal and Agentic AI Safety</td>
+                  <td class="tg-0lax">
+                    • Vulnerabilities in text, image, audio, and video models<br />
+                    • Risks of agentic AI systems taking autonomous actions<br />
+                    • Red-teaming methods for complex, multi-modal systems
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tg-0lax">10:30—11:00</td>
+                  <td class="tg-0lax">Break</td>
+                  <td class="tg-0lax"></td>
+                </tr>
+                <tr>
+                  <td class="tg-0lax">11:00—12:00</td>
+                  <td class="tg-0lax">Safe AI</td>
+                  <td class="tg-0lax">
+                    • Defense approaches at training-time and inference-time<br />
+                    • Handling deception, persuasion, and emergent behaviors<br />
+                    • Ongoing debates around model "consciousness" and awareness<br />
+                    • Q&A / Discussion
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reading List -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Reading List</h2>
+
+          <p>We've compiled a comprehensive reading list of papers related to AI safety. 
+            If you think that we're missing essential papers, please submit a <a
+              href="https://github.com/librairesearch/librairesearch.github.io" target="_blank">pull
+              request.</a></p>
+          <br />
+
+          <ul>
+            <li><a href="https://arxiv.org/abs/2404.00629">Against The Achilles' Heel: A Survey on Red Teaming for Generative Models</a></li>
+            <li><a href="https://arxiv.org/abs/2308.13387">Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs</a></li>
+            <li><a href="https://arxiv.org/abs/2307.15043">Universal and Transferable Adversarial Attacks on Aligned Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2309.07875">Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions</a></li>
+            <li><a href="https://arxiv.org/abs/2412.18551">Libra-Leaderboard: Towards Responsible AI through a Balanced Leaderboard of Safety and Capability</a></li>
+            <li><a href="https://arxiv.org/abs/2403.16432">Don't Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2308.09662">Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment</a></li>
+            <li><a href="https://arxiv.org/abs/2309.10253">GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts</a></li>
+            <li><a href="https://arxiv.org/abs/2309.06135">Prompting4Debugging: Red-Teaming Text-to-Image Diffusion Models by Finding Problematic Prompts</a></li>
+            <li><a href="https://arxiv.org/abs/2307.04657">BeaverTails: Towards Improved Safety Alignment of LLM via a Human-Preference Dataset</a></li>
+            <li><a href="https://arxiv.org/abs/2404.01318">JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2404.05399">SafetyPrompts: a Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety</a></li>
+            <li><a href="https://arxiv.org/abs/2307.08487">Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2311.01011">Tensor Trust: Interpretable Prompt Injection Attacks from an Online Game</a></li>
+            <li><a href="https://arxiv.org/abs/2306.13213">Visual Adversarial Examples Jailbreak Aligned Large Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2307.14539">Jailbreak in pieces: Compositional Adversarial Attacks on Multi-Modal Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2412.04984">Frontier Models are Capable of In-context Scheming</a></li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      Add citation
+}
+</code></pre>
+  </div>
+</section> -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://github.com/ACL2023-Retrieval-LM" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              Website <a href="https://github.com/nerfies/nerfies.github.io">source code.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

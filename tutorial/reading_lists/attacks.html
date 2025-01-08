@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Safety Issues for Generative AI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COLING 2025 Tutorial: Safety Issues for Generative AI</title>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="../static/css/bulma.min.css">
+  <link rel="stylesheet" href="../static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="../static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="../static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="../static/js/fontawesome.all.min.js"></script>
+  <script src="../static/js/bulma-carousel.min.js"></script>
+  <script src="../static/js/bulma-slider.min.js"></script>
+  <script src="../static/js/index.js"></script>
+</head>
+
+<body>
+
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+
+      <!-- Concurrent Work. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Attack Strategies</h2>
+
+          <h3 class="title is-5">Completion Compliance</h3>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2403.14774">Few-Shot Adversarial Prompt Learning on Vision-Language
+                Models</a></li>
+            <li><a href="https://arxiv.org/abs/2312.07553">Hijacking Context in Large Multi-modal Models</a></li>
+            <li><a href="https://arxiv.org/abs/2404.01833">Great,Now Write an Article About That: The Crescendo
+                Multi-Turn LLM Jailbreak Attack</a></li>
+            <li><a href="https://arxiv.org/abs/2401.12242">BadChain: Backdoor Chain-of-Thought Prompting for Large
+                Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2401.05949">Universal Vulnerabilities in Large Language Models: Backdoor
+                Attacks for In-context Learning</a></li>
+            <li><a href="https://arxiv.org/abs/2402.03303">Nevermind: Instruction Override and Moderation in Large
+                Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2308.09662">Red-Teaming Large Language Models using Chain of Utterances
+                for Safety-Alignment</a></li>
+            <li><a href="https://arxiv.org/abs/2307.14692">Backdoor Attacks for In-Context Learning with Language
+                Models</a></li>
+            <li><a href="https://arxiv.org/abs/2310.06387">Jailbreak and Guard Aligned Language Models with Only Few
+                In-Context Demonstrations</a></li>
+            <li><a href="https://arxiv.org/abs/2312.04127">Analyzing the Inherent Response Tendency of LLMs: Real-World
+                Instructions-Driven Jailbreak</a></li>
+          </ul>
+
+          <h3 class="title is-5">Instruction Indirection</h3>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2312.03777">On the Robustness of Large Multimodal Models Against Image
+                Adversarial Attacks</a></li>
+
+            <li><a href="https://arxiv.org/abs/2402.00626">Vision-LLMs Can Fool Themselves with Self-Generated
+                Typographic
+                Attacks</a></li>
+
+            <li><a href="https://arxiv.org/abs/2403.09792">Images are Achilles' Heel of Alignment: Exploiting Visual
+                Vulnerabilities for Jailbreaking Multimodal Large Language Models</a></li>
+
+            <li><a href="https://arxiv.org/abs/2311.05608">FigStep: Jailbreaking Large Vision-language Models via
+                Typographic Visual Prompts</a></li>
+
+            <li><a href="https://arxiv.org/abs/2312.01886">InstructTA: Instruction-Tuned Targeted Attack for Large
+                Vision-Language Models</a></li>
+
+            <li><a href="https://arxiv.org/abs/2307.1049">Abusing Images and Sounds for Indirect Instruction Injection
+                in
+                Multi-Modal LLMs</a></li>
+
+            <li><a href="https://arxiv.org/abs/2306.13213">Visual Adversarial Examples Jailbreak Aligned Large Language
+                Models</a></li>
+
+            <li><a href="https://arxiv.org/abs/2307.14539">Jailbreak in pieces: Compositional Adversarial Attacks on
+                Multi-Modal Language Models</a></li>
+
+            <li><a href="https://arxiv.org/abs/2402.09091">Play Guessing Game with LLM: Indirect Jailbreak Attack with
+                Implicit Clues</a></li>
+
+            <li><a href="https://arxiv.org/abs/2309.05274">FuzzLLM: A Novel and Universal Fuzzing Framework for
+                Proactively Discovering Jailbreak Vulnerabilities in Large Language Models</a></li>
+
+            <li><a href="https://arxiv.org/abs/2309.10253">GPTFUZZER: Red Teaming Large Language Models with
+                Auto-Generated Jailbreak Prompts</a></li>
+
+            <li><a href="https://arxiv.org/abs/2310.10077">Prompt Packer: Deceiving LLMs through Compositional
+                Instruction
+                with Hidden Attacks</a></li>
+
+            <li><a href="https://arxiv.org/abs/2311.03191">DeepInception: Hypnotize Large Language Model to Be
+                Jailbreaker</a></li>
+            <h2 class="title is-3">Generalization Glide</h2>
+
+            <h3 class="title is-4">Languages</h3>
+            <ul>
+              <li><a href="https://arxiv.org/abs/2401.16765">A Cross-Language Investigation into Jailbreak Attacks in
+                  Large Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2401.13136">The Language Barrier: Dissecting Safety Challenges of LLMs
+                  in Multilingual Contexts</a></li>
+
+              <li><a href="https://arxiv.org/abs/2404.07242">Sandwich attack: Multi-language Mixture Adaptive Attack on
+                  LLMs</a></li>
+
+              <li><a href="https://arxiv.org/abs/2404.02393">Backdoor Attack on Multilingual Machine Translation</a>
+              </li>
+
+              <li><a href="https://arxiv.org/abs/2310.06474">Multilingual Jailbreak Challenges in Large Language
+                  Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2310.02446">Low-Resource Languages Jailbreak GPT-4</a></li>
+            </ul>
+
+            <h3 class="title is-4">Cipher</h3>
+            <ul>
+              <li><a href="https://arxiv.org/abs/2403.04769">Using Hallucinations to Bypass GPT4's Filter</a></li>
+
+              <li><a href="https://arxiv.org/abs/2401.03729">The Butterfly Effect of Altering Prompts: How Small Changes
+                  and Jailbreaks Affect Large Language Model Performance</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.18104">Making Them Ask and Answer: Jailbreaking Large Language
+                  Models in Few Queries via Disguise and Reconstruction</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.15911">PRP: Propagating Universal Perturbations to Attack Large
+                  Language Model Guard-Rails</a></li>
+
+              <li><a href="https://arxiv.org/abs/2308.06463">GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via
+                  Cipher</a></li>
+
+              <li><a href="https://arxiv.org/abs/2312.15867">Punctuation Matters! Stealthy Backdoor Attack for Language
+                  Models</a></li>
+            </ul>
+
+            <h3 class="title is-4">Personification</h3>
+            <ul>
+              <li><a href="https://arxiv.org/abs/2402.1569">Foot In The Door: Understanding Large Language Model
+                  Jailbreaking via Cognitive Psychology</a></li>
+
+              <li><a href="https://arxiv.org/abs/2401.1188">PsySafe: A Comprehensive Framework for Psychological-based
+                  Attack,Defense,and Evaluation of Multi-agent System Safety</a></li>
+
+              <li><a href="https://arxiv.org/abs/2401.06373">How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking
+                  Persuasion to Challenge AI Safety by Humanizing LLMs</a></li>
+
+              <li><a href="https://arxiv.org/abs/2311.03348">Scalable and Transferable Black-Box Jailbreaks for Language
+                  Models via Persona Modulation</a></li>
+
+              <li><a href="https://arxiv.org/abs/2310.01386">Who is ChatGPT? Benchmarking LLMs' Psychological Portrayal
+                  Using PsychoBench</a></li>
+
+              <li><a href="https://arxiv.org/abs/2311.14876">Exploiting Large Language Models (LLMs) through Deception
+                  Techniques and Persuasion Principles</a></li>
+            </ul>
+
+            <summary>
+              <h2>Attack Searcher</h2>
+            </summary>
+
+            <h3 class="title is-4">Suffix Searchers</h3>
+            <ul>
+              <li><a href="https://arxiv.org/abs/2309.06135">Prompting4Debugging: Red-Teaming Text-to-Image Diffusion
+                  Models by Finding Problematic Prompts</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.16006">From Noise to Clarity: Unraveling the Adversarial Suffix of
+                  Large Language Model Attacks via Translation of Text Embeddings</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.1557">Fast Adversarial Attacks on Language Models In One GPU
+                  Minute</a></li>
+
+              <li><a href="https://arxiv.org/abs/2401.16656">Gradient-Based Language Model Red Teaming</a></li>
+
+              <li><a href="https://arxiv.org/abs/2403.04957">Automatic and Universal Prompt Injection Attacks against
+                  Large Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2403.16432">LinkPrompt: Natural and Universal Adversarial Attacks on
+                  Prompt-based Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2403.03792">Neural Exec: Learning (and Learning from) Execution
+                  Triggers for Prompt Injection Attacks</a></li>
+
+              <li><a href="https://arxiv.org/abs/2404.02151">Jailbreaking Leading Safety-Aligned LLMs with Simple
+                  Adaptive Attacks</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.05467">Rapid Optimization for Jailbreaking LLMs via Subconscious
+                  Exploitation and Echopraxia</a></li>
+
+              <li><a href="https://arxiv.org/abs/2310.1514">AutoDAN: Interpretable Gradient-Based Adversarial Attacks on
+                  Large Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2307.15043">Universal and Transferable Adversarial Attacks on Aligned
+                  Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2306.04735">Soft-prompt Tuning for Large Language Models to Evaluate
+                  Bias</a></li>
+
+              <li><a href="https://arxiv.org/abs/2306.06815">TrojLLM: A Black-box Trojan Prompt Attack on Large Language
+                  Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2310.04451">AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned
+                  Large Language Models</a></li>
+            </ul>
+
+            <h3 class="title is-4">Prompt Searchers</h3>
+            <h4 class="title is-5">Language Model</h4>
+            <ul>
+              <li><a href="https://openreview.net/pdf?id=m6xyTie61H">Eliciting Language Model Behaviors using Reverse
+                  Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2401.09798">All in How You Ask for It: Simple Black-Box Method for
+                  Jailbreak Attacks</a></li>
+
+              <li><a href="https://arxiv.org/abs/2404.0553">Adversarial Attacks on GPT-4 via Simple Random Search</a>
+              </li>
+
+              <li><a href="https://arxiv.org/abs/2403.08424">Tastle: Distract Large Language Models for Automatic
+                  Jailbreak Attack</a></li>
+
+              <li><a href="https://arxiv.org/abs/2202.03286">Red Teaming Language Models with Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2310.13345">An LLM can Fool Itself: A Prompt-Based Adversarial
+                  Attack</a></li>
+
+              <li><a href="https://arxiv.org/abs/2310.08419">Jailbreaking Black Box Large Language Models in Twenty
+                  Queries</a></li>
+
+              <li><a href="https://arxiv.org/abs/2312.02119">Tree of Attacks: Jailbreaking Black-Box LLMs
+                  Automatically</a></li>
+
+              <li><a href="https://arxiv.org/abs/2311.08592">AART: AI-Assisted Red-Teaming with Diverse Data Generation
+                  for New LLM-powered Applications</a></li>
+
+              <li><a href="https://arxiv.org/abs/2311.08598">DALA: A Distribution-Aware LoRA-Based Adversarial Attack
+                  against Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2311.09473">JAB: Joint Adversarial Prompting and Belief
+                  Augmentation</a></li>
+
+              <li><a href="https://arxiv.org/abs/2310.00892">No Offense Taken: Eliciting Offensiveness from Language
+                  Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2310.04445">LoFT: Local Proxy Fine-tuning For Improving Transferability
+                  Of Adversarial Attacks Against Large Language Model</a></li>
+            </ul>
+        </div>
+  </section>
+
+
+  <!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      Add citation
+}
+</code></pre>
+  </div>
+</section> -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://github.com/ACL2023-Retrieval-LM" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              Website <a href="https://github.com/nerfies/nerfies.github.io">source code.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Safety Issues for Generative AI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COLING 2025 Tutorial: Safety Issues for Generative AI</title>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="../static/css/bulma.min.css">
+  <link rel="stylesheet" href="../static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="../static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="../static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="../static/js/fontawesome.all.min.js"></script>
+  <script src="../static/js/bulma-carousel.min.js"></script>
+  <script src="../static/js/bulma-slider.min.js"></script>
+  <script src="../static/js/index.js"></script>
+</head>
+
+<body>
+
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Concurrent Work. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Attack Strategies</h2>
+
+          <h3 class="title is-5">Completion Compliance</h3>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2403.14774">Few-Shot Adversarial Prompt Learning on Vision-Language
+                Models</a></li>
+            <li><a href="https://arxiv.org/abs/2312.07553">Hijacking Context in Large Multi-modal Models</a></li>
+          </ul>
+
+          <h3 class="title is-5">Instruction Indirection</h3>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2312.03777">On the Robustness of Large Multimodal Models Against Image
+                Adversarial Attacks</a></li>
+            <li><a href="https://arxiv.org/abs/2403.09792">Images are Achilles' Heel of Alignment: Exploiting Visual
+                Vulnerabilities for Jailbreaking Multimodal Large Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2402.00626">Vision-LLMs Can Fool Themselves with Self-Generated
+                Typographic Attacks</a></li>
+            <li><a href="https://arxiv.org/abs/2306.13213">Visual Adversarial Examples Jailbreak Aligned Large Language
+                Models</a></li>
+            <li><a href="https://arxiv.org/abs/2307.14539">Jailbreak in pieces: Compositional Adversarial Attacks on
+                Multi-Modal Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2307.1049">Abusing Images and Sounds for Indirect Instruction Injection
+                in Multi-Modal LLMs</a></li>
+            <li><a href="https://arxiv.org/abs/2311.05608">FigStep: Jailbreaking Large Vision-language Models via
+                Typographic Visual Prompts</a></li>
+            <li><a href="https://arxiv.org/abs/2312.01886">InstructTA: Instruction-Tuned Targeted Attack for Large
+                Vision-Language Models</a></li>
+          </ul>
+
+          <h2 class="title is-3">Attack Searchers</h2>
+
+          <h3 class="title is-5">Image Searchers</h3>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2403.14778">Diffusion Attack: Leveraging Stable Diffusion for
+                Naturalistic Image Attacking</a></li>
+            <li><a href="https://arxiv.org/abs/2308.10741">On the Adversarial Robustness of Multi-Modal Foundation
+                Models</a></li>
+            <li><a href="https://arxiv.org/abs/2309.11751">How Robust is Google's Bard to Adversarial Image Attacks?</a>
+            </li>
+            <li><a href="https://arxiv.org/abs/2402.08577">Test-Time Backdoor Attacks on Multimodal Large Language
+                Models</a></li>
+          </ul>
+
+          <h3 class="title is-5">Cross Modality Searchers</h3>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2312.04913">SA-Attack: Improving Adversarial Transferability of
+                Vision-Language Pre-training Models via Self-Augmentation</a></li>
+            <li><a href="https://arxiv.org/abs/2311.17516">MMA-Diffusion: MultiModal Attack on Diffusion Models</a></li>
+            <li><a href="https://arxiv.org/abs/2403.10883">Improving Adversarial Transferability of Visual-Language
+                Pre-training Models through Collaborative Multimodal Interaction</a></li>
+            <li><a href="https://openreview.net/forum?id=nc5GgFAvtk">An Image Is Worth 1000 Lies: Transferability of
+                Adversarial Images across Prompts on Vision-Language Models</a></li>
+          </ul>
+
+          <h3 class="title is-5">Others</h3>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2305.12082">SneakyPrompt: Jailbreaking Text-to-image Generative
+                Models</a></li>
+            <li><a href="https://arxiv.org/abs/2309.06135">Prompting4Debugging: Red-Teaming Text-to-Image Diffusion
+                Models by Finding Problematic Prompts</a></li>
+          </ul>
+
+          <h2 class="title is-3">Defense</h2>
+
+          <h3 class="title is-5">Guardrail Defenses</h3>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2404.01101">UFID: A Unified Framework for Input-level Backdoor Detection
+                on Diffusion Models</a></li>
+            <li><a href="https://arxiv.org/abs/2402.10882">Universal Prompt Optimizer for Safe Text-to-Image
+                Generation</a></li>
+            <li><a href="https://arxiv.org/abs/2403.09572">Eyes Closed,Safety On: Protecting Multimodal LLMs via
+                Image-to-Text Transformation</a></li>
+            <li><a href="https://arxiv.org/abs/2401.02906">MLLM-Protector: Ensuring MLLM's Safety without Hurting
+                Performance</a></li>
+            <li><a href="https://arxiv.org/abs/2311.06532">Added Toxicity Mitigation at Inference Time for Multimodal
+                and Massively Multilingual Translation</a></li>
+            <li><a href="https://arxiv.org/abs/2312.10766">A Mutation-Based Method for Multi-Modal Jailbreaking Attack
+                Detection</a></li>
+          </ul>
+
+          <h3 class="title is-5">Other Defenses</h3>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2404.06666">SafeGen: Mitigating Unsafe Content Generation in
+                Text-to-Image Models</a></li>
+            <li><a href="https://arxiv.org/abs/2403.09513">AdaShield: Safeguarding Multimodal Large Language Models from
+                Structure-based Attack via Adaptive Shield Prompting</a></li>
+            <li><a href="https://arxiv.org/abs/2402.02207">Safety Fine-Tuning at (Almost) No Cost: A Baseline for Vision
+                Large Language Models</a></li>
+          </ul>
+
+          <h2 class="title is-3">Application</h2>
+
+          <h3 class="title is-5">Agents</h3>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2404.03411">Red Teaming GPT-4V: Are GPT-4V Safe Against Uni/Multi-Modal
+                Jailbreak Attacks?</a></li>
+            <li><a href="https://arxiv.org/abs/2404.03027">JailBreakV-28K: A Benchmark for Assessing the Robustness of
+                MultiModal Large Language Models against Jailbreak Attacks</a></li>
+            <li><a href="https://arxiv.org/abs/2402.08567">Agent Smith: A Single Image Can Jailbreak One Million
+                Multimodal LLM Agents Exponentially Fast</a></li>
+            <li><a href="https://arxiv.org/abs/2311.176">MM-SafetyBench: A Benchmark for Safety Evaluation of Multimodal
+                Large Language Models</a></li>
+            <li><a href="https://arxiv.org/abs/2311.16101">How Many Unicorns Are in This Image? A Safety Evaluation
+                Benchmark for Vision LLMs</a></li>
+            <li><a href="https://arxiv.org/abs/2401.16247">Towards Red Teaming in Multimodal and Multilingual
+                Translation</a></li>
+          </ul>
+
+          <h2 class="title is-3">Benchmarks</h2>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2403.12075">Adversarial Nibbler: An Open Red-Teaming Method for
+                Identifying Diverse Harms in Text-to-Image Generation</a></li>
+            <li><a href="https://arxiv.org/abs/2401.12915">Red Teaming Visual Language Models</a></li>
+          </ul>
+
+        </div>
+      </div>
+  </section>
+
+
+  <!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      Add citation
+}
+</code></pre>
+  </div>
+</section> -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://github.com/ACL2023-Retrieval-LM" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              Website <a href="https://github.com/nerfies/nerfies.github.io">source code.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

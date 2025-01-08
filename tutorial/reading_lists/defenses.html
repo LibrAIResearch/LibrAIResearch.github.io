@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Safety Issues for Generative AI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COLING 2025 Tutorial: Safety Issues for Generative AI</title>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="../static/css/bulma.min.css">
+  <link rel="stylesheet" href="../static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="../static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="../static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="../static/js/fontawesome.all.min.js"></script>
+  <script src="../static/js/bulma-carousel.min.js"></script>
+  <script src="../static/js/bulma-slider.min.js"></script>
+  <script src="../static/js/index.js"></script>
+</head>
+
+<body>
+
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Concurrent Work. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+
+
+          <h3 class="title is-4">Training Time Defenses</h3>
+          <h4 class="title is-5">RLHF</h4>
+          <ul>
+            <li><a href="https://arxiv.org/abs/2404.00495">Configurable Safety Tuning of Language Models with Synthetic
+                Preference Data</a></li>
+
+            <li><a href="https://arxiv.org/abs/2403.02475">Enhancing LLM Safety via Constrained Direct Preference
+                Optimization</a></li>
+
+            <li><a href="https://arxiv.org/abs/2310.12773">Safe RLHF: Safe Reinforcement Learning from Human
+                Feedback</a></li>
+
+            <li><a href="https://arxiv.org/abs/2307.04657">BeaverTails: Towards Improved Safety Alignment of LLM via a
+                Human-Preference Dataset</a></li>
+
+            <li><a href="https://arxiv.org/abs/2311.08685">Safer-Instruct: Aligning Language Models with Automated
+                Preference Data</a></li>
+          </ul>
+
+          <h3 class="title is-4">Fine-tuning</h2>
+            <ul>
+              <li><a href="https://arxiv.org/abs/2404.06666">SafeGen: Mitigating Unsafe Content Generation in
+                  Text-to-Image Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.02207">Safety Fine-Tuning at (Almost) No Cost: A Baseline for
+                  Vision
+                  Large Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2404.01399">Developing Safe and Responsible Large Language Models -- A
+                  Comprehensive Framework</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.16382">Immunization against harmful fine-tuning attacks</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.14968">Mitigating Fine-tuning Jailbreak Attack with Backdoor
+                  Enhanced Alignment</a></li>
+
+              <li><a href="https://arxiv.org/abs/2404.00486">Dialectical Alignment: Resolving the Tension of 3H and
+                  Security Threats of LLMs</a></li>
+
+              <li><a href="https://arxiv.org/abs/2401.10862">Pruning for Protection: Increasing Jailbreak Resistance in
+                  Aligned LLMs Without Fine-Tuning</a></li>
+
+              <li><a href="https://arxiv.org/abs/2404.0588">Eraser: Jailbreaking Defense in Large Language Models via
+                  Unlearning Harmful Knowledge</a></li>
+
+              <li><a href="https://arxiv.org/abs/2404.02356">Two Heads are Better than One: Nested PoE for Robust
+                  Defense
+                  Against Multi-Backdoors</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.12168">Defending Against Weight-Poisoning Backdoor Attacks for
+                  Parameter-Efficient Fine-Tuning</a></li>
+            </ul>
+
+            <h3 class="title is-4">Inference Time Defenses</h3>
+            <h4 class="title is-5">Prompting</h4>
+            <ul>
+              <li><a href="https://arxiv.org/abs/2403.09513">AdaShield: Safeguarding Multimodal Large Language Models
+                  from Structure-based Attack via Adaptive Shield Prompting</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.1518">Break the Breakout: Reinventing LM Defense Against Jailbreak
+                  Attacks with Self-Refinement</a></li>
+
+              <li><a href="https://arxiv.org/abs/2401.18018">On Prompt-Driven Safeguarding for Large Language Models</a>
+              </li>
+
+              <li><a href="https://arxiv.org/abs/2401.07612">Signed-Prompt: A New Approach to Prevent Prompt Injection
+                  Attacks Against LLM-Integrated Applications</a></li>
+
+              <li><a href="https://arxiv.org/abs/2401.06561">Intention Analysis Makes LLMs A Good Jailbreak Defender</a>
+              </li>
+
+              <li><a href="https://arxiv.org/abs/2403.1472">Defending Against Indirect Prompt Injection Attacks With
+                  Spotlighting</a></li>
+
+              <li><a href="https://arxiv.org/abs/2403.11838">Ensuring Safe and High-Quality Outputs: A Guideline Library
+                  Approach for Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2404.07234">Goal-guided Generative Prompt Injection Attack on Large
+                  Language Models</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.06363">StruQ: Defending Against Prompt Injection with Structured
+                  Queries</a></li>
+            </ul>
+
+            <h4 class="title is-5">Guardrails</h4>
+            <ul>
+              <li><a href="https://arxiv.org/abs/2403.13031">RigorLLM: Resilient Guardrails for Large Language Models
+                  against Undesired Content</a></li>
+
+              <li><a href="https://arxiv.org/abs/2310.10501">NeMo Guardrails: A Toolkit for Controllable and Safe LLM
+                  Applications with Programmable Rails</a></li>
+
+              <li><a href="https://arxiv.org/abs/2312.06674">Llama Guard: LLM-based Input-Output Safeguard for Human-AI
+                  Conversations</a></li>
+
+              <li><a href="https://arxiv.org/abs/2402.11755">SPML: A DSL for Defending Language Models Against Prompt
+                  Attacks</a></li>
+
+              <li><a href="https://arxiv.org/abs/2311.00172">Robust Safety Classifier for Large Language Models:
+                  Adversarial Prompt Shield</a></li>
+
+              <li><a href="https://arxiv.org/abs/2312.06942">AI Control: Improving Safety Despite Intentional
+                  Subversion</a></li>
+
+              <li><a href="https://arxiv.org/abs/2312.11513">Maatphor: Automated Variant Analysis for Prompt Injection
+                  Attacks</a></li>
+            </ul>
+        </div>
+  </section>
+
+
+  <!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      Add citation
+}
+</code></pre>
+  </div>
+</section> -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://github.com/ACL2023-Retrieval-LM" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              Website <a href="https://github.com/nerfies/nerfies.github.io">source code.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
