@@ -25,7 +25,40 @@
 </head>
 
 <body>
+  <!-- Add banner image -->
+  <div class="banner-container">
+    <a href="https://coling2025.org/" target="_blank">
+      <img src="static/imgs/coling2025-banner.jpg" 
+           alt="COLING 2025 Abu Dhabi Banner" 
+           class="banner-image"
+           onerror="console.log('Error loading banner image');">
+    </a>
+  </div>
 
+  <!-- Add banner styling -->
+  <style>
+    .banner-container {
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+      background-color: #f0f0f0;
+      position: relative;
+    }
+    
+    .banner-container a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .banner-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
 
   <section class="hero">
     <div class="hero-body">
