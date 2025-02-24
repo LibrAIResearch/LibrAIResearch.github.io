@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>SCALAR</title>
+  <link rel="icon" type="image/x-icon" href="static/images/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">SCALAR: Scientific Citation-based Live Assessment of Long-context Academic Reasoning</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://renxiwang.site/" target="_blank">Renxi Wang</a><sup>*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://github.com/hlmu" target="_blank">Honglin Mu</a><sup>*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="", target="_self">Liqun Ma</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://github.com/Shomvel" target="_blank">Lizhi Lin</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://alongwy.top/" target="_blank">Yunlong Feng</a>,
+              </span>
+              <br>
+              <span class="author-block">
+                <a href="https://eltimster.github.io/www/" target="_blank">Timothy Baldwin</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://hanxudong.github.io/" target="_blank">Xudong Han</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://haonan-li.github.io/" target="_blank">Haonan Li</a>,
+              </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+              <span class="author-block">MBZUAI &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp LibrAI &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Tsinghua University<br> Alibaba Group &nbsp&nbsp&nbsp The University of Melbourne</span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- Arxiv PDF link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2502.13753.pdf" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+            <!-- Github link -->
+            <span class="link-block">
+              <a href="https://github.com/LibrAIResearch/scalar" target="_blank" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+              </a>
+            </span>
+
+            <!-- ArXiv abstract Link -->
+            <span class="link-block">
+              <a href="https://arxiv.org/abs/2502.13753" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="ai ai-arxiv"></i>
+              </span>
+              <span>arXiv</span>
+              </a>
+            </span>
+
+            <span class="link-block">
+              <a href="https://huggingface.co/spaces/LibrAI/SCALAR" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="ai ai-arxiv"></i>
+              </span>
+              <span>Demo</span>
+              </a>
+            </span>
+
+            </div>
+            <div class="column is-centered has-text-centered">
+              <img src="static/images/scalar_overview.png" alt="SCALAR Overview" style="width: 100%; height: auto;">
+              <div style="width: 100%; margin: 0 auto;">
+                <div class="has-text-left">
+                  <span>The overall process of building SCALAR. We first crawl arXiv papers that are also in ICLR 2025. Then we parse them into structualized data, sampling citations to mask and other citations as candidates.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Evaluating large language models' (LLMs) long-context understanding capabilities remains challenging. We present SCALAR (Scientific Citation-based Live Assessment of Long-context Academic Reasoning), a novel benchmark that leverages academic papers and their citation networks. SCALAR features automatic generation of high-quality ground truth labels without human annotation, controllable difficulty levels, and a dynamic updating mechanism that prevents data contamination. Using ICLR 2025 papers, we evaluate 8 state-of-the-art LLMs, revealing key insights about their capabilities and limitations in processing long scientific documents across different context lengths and reasoning types. Our benchmark provides a reliable and sustainable way to track progress in long-context understanding as LLM capabilities evolve.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns">
+        <div class="content">
+          <div class="column">
+            <h2 class="title is-3">Evaluation</h2>
+          </div>
+          <div class="has-text-centered">
+            <img src="static/images/scalar_results.png" alt="SCALAR Evaluation" style="width: 50%; height: auto;">
+          </div>
+          
+          <div class="has-text-left">
+            <p>
+              The table presents model performance across difficulty levels. All LLMs' performance downgrades when difficulty increases. On the easy level, SCALAR can already differentiate LLMs' long context capability, where the best model GPT-4o achieves 95% accuracy, while the lowest-performing models hover around 30-37%, compared to the random baseline of 25%. For the hard level set, half of the models achieve random performance, and even current SOTA models obtain less than half the correct results, demonstrating how challenging our dataset is.
+            </p>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns">
+        <div class="content">
+          <div class="column">
+            <h2 class="title is-3">Template</h2>
+          </div>
+          
+          <div class="has-text-left">
+            <pre style="white-space: pre-wrap; word-wrap: break-word;"><code>You are given a paper with a placeholder "**[MASKED_CITATION]**" in its content. Your task is to select the most appropriate reference from the provided reference list to replace the mask.
+
+- The paper content is enclosed within &lt;Paper&gt; and &lt;/Paper&gt;.
+- The reference list is enclosed within &lt;References&gt; and &lt;/References&gt;, with each reference wrapped in &lt;Candidate&gt; and &lt;/Candidate&gt;.
+
+After selecting the best-suited reference, output the index of that reference in the following format:
+&lt;answer&gt;index&lt;/answer&gt;
+
+&lt;Paper&gt;
+... BERT (**[MASKED_CITATION]**) or ...
+&lt;/Paper&gt;
+
+&lt;References&gt;
+&lt;Candidate&gt;Candidate [0]:
+... candidate content ...
+&lt;/Candidate&gt;
+&lt;Candidate&gt;Candidate [1]:
+... candidate content ...
+&lt;/Candidate&gt;
+&lt;Candidate&gt;Candidate [2]:
+... candidate content ...
+&lt;/Candidate&gt;
+&lt;Candidate&gt;Candidate [3]:
+... candidate content ...
+&lt;/Candidate&gt;
+&lt;/References&gt;
+
+Remember to output the index of the selected reference enclosed within &lt;answer&gt; and &lt;/answer&gt;.</code></pre>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- Data viewer -->
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Data Viewer</h2>
+        
+        <div class="buttons is-centered mb-4">
+          <button class="button is-primary" onclick="previousExample()">Previous</button>
+          <button class="button is-primary" onclick="nextExample()">Next</button>
+        </div>
+
+        <div class="box">
+          <div class="content">
+            <p class="is-size-5"><strong>Example ID: </strong><span id="example-id"></span></p>
+            <div class="has-text-left">
+              <p><strong>Question:</strong></p>
+              <div id="example-question" class="content"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End data viewer -->
+
+<!-- Add marked.js for markdown rendering -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+<script>
+  let examples = [];
+  let currentExampleIndex = 0;
+
+  // Load examples from JSON file
+  async function loadExamples() {
+  try {
+    // Load multiple files
+    const [response1, response2, response3] = await Promise.all([
+      fetch('static/data/scalar_easy.json'),
+      fetch('static/data/scalar_medium.json'),
+      fetch('static/data/scalar_hard.json')
+    ]);
+    
+    const data1 = await response1.json();
+    const data2 = await response2.json();
+    const data3 = await response3.json();
+    
+    // Combine the examples
+    examples = [...data1, ...data2, ...data3];
+    
+    if (examples.length > 0) {
+      displayExample(0);
+    }
+  } catch (error) {
+    console.error('Error loading examples:', error);
+    document.getElementById('example-question').innerHTML = 'Error loading examples. Please try again later.';
+  }
+}
+
+  marked.setOptions({
+    breaks: true,
+    gfm: true
+  });
+
+  function displayExample(index) {
+    const example = examples[index];
+    document.getElementById('example-id').textContent = example.id;
+    
+    // Render markdown first
+    const renderedMarkdown = marked.parse(example.question);
+    document.getElementById('example-question').innerHTML = renderedMarkdown;
+    
+    // Render math equations after markdown is processed
+    if (window.MathJax) {
+      MathJax.typesetPromise([document.getElementById('example-question')])
+        .catch((err) => console.log('MathJax error:', err));
+    }
+  }
+
+  function previousExample() {
+    currentExampleIndex = (currentExampleIndex - 1 + examples.length) % examples.length;
+    displayExample(currentExampleIndex);
+  }
+
+  function nextExample() {
+    currentExampleIndex = (currentExampleIndex + 1) % examples.length;
+    displayExample(currentExampleIndex);
+  }
+
+  // Initialize by loading examples when the page loads
+  document.addEventListener('DOMContentLoaded', loadExamples);
+</script> -->
+
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Citation</h2>
+    <pre><code>@misc{
+  wang2025scalarscientificcitationbasedlive,
+  title={SCALAR: Scientific Citation-based Live Assessment of Long-context Academic Reasoning}, 
+  author={Renxi Wang and Honglin Mu and Liqun Ma and Lizhi Lin and Yunlong Feng and Timothy Baldwin and Xudong Han and Haonan Li},
+  year={2025},
+  eprint={2502.13753},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2502.13753}, 
+}</code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container ">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built based on the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+<!-- End of Statcounter Code -->
+</body>
+</html>
